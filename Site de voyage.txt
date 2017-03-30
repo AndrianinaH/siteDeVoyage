@@ -1,0 +1,54 @@
+Site de voyage
+
+-inserer des hotels et des destinations
+-trie et filtre de recherche multicritere
+-gestion des reservations 
+-status des disponibilites
+
+table:
+-client
+	id
+	nom
+	email
+	mdp
+
+-destination
+	id
+	nom
+
+-hotel
+	id
+	nom
+	description
+	image
+	idDestination
+
+-chambre
+	id
+	nom
+	idHotel
+	nbrPetitLit
+	nbrGrandLit
+	prix
+
+-chambre_supplement
+	id_chambre
+	id_supplement
+
+-supplement
+	id
+	nom
+	
+	
+-reservation
+	id
+	idClient
+	idChambre
+	dateDebut
+	dateFin
+
+
+	
+
+
+
