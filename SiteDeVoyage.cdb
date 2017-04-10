@@ -1525,8 +1525,8 @@ AssociationComment 0 Arial,8,N</a:FontList>
 <a:Code>HOTEL</a:Code>
 <a:CreationDate>1488347898</a:CreationDate>
 <a:Creator>itu</a:Creator>
-<a:ModificationDate>1488354456</a:ModificationDate>
-<a:Modifier>itu</a:Modifier>
+<a:ModificationDate>1491501924</a:ModificationDate>
+<a:Modifier>Utilisateur</a:Modifier>
 <c:Identifiers>
 <o:Identifier Id="o47">
 <a:ObjectID>2DEB7453-4801-40F5-9DFC-692AA4CFD101</a:ObjectID>
@@ -2180,8 +2180,8 @@ AssociationComment 0 Arial,8,N</a:FontList>
 <a:Code>FILTRE_HOTEL</a:Code>
 <a:CreationDate>1488353571</a:CreationDate>
 <a:Creator>itu</a:Creator>
-<a:ModificationDate>1488353856</a:ModificationDate>
-<a:Modifier>itu</a:Modifier>
+<a:ModificationDate>1491501924</a:ModificationDate>
+<a:Modifier>Utilisateur</a:Modifier>
 </o:Association>
 </c:Associations>
 <c:AssociationsLinks>
@@ -2315,9 +2315,9 @@ AssociationComment 0 Arial,8,N</a:FontList>
 <a:ObjectID>F44B4127-F574-4590-B656-9DF7AD50B374</a:ObjectID>
 <a:CreationDate>1488353571</a:CreationDate>
 <a:Creator>itu</a:Creator>
-<a:ModificationDate>1488353836</a:ModificationDate>
-<a:Modifier>itu</a:Modifier>
-<a:Cardinality>0,n</a:Cardinality>
+<a:ModificationDate>1491501924</a:ModificationDate>
+<a:Modifier>Utilisateur</a:Modifier>
+<a:Cardinality>1,1</a:Cardinality>
 <c:Object1>
 <o:Association Ref="o46"/>
 </c:Object1>
@@ -2335,7 +2335,7 @@ AssociationComment 0 Arial,8,N</a:FontList>
 <a:Creator>itu</a:Creator>
 <a:ModificationDate>1488349443</a:ModificationDate>
 <a:Modifier>itu</a:Modifier>
-<a:TargetModelURL>file:///D|/Doc Andrianina/S6/Framework/SiteDeVoyage.pdm</a:TargetModelURL>
+<a:TargetModelURL>file:///D|/Doc Andrianina/S6/Framework/siteDeVoyage/SiteDeVoyage.pdm</a:TargetModelURL>
 <a:TargetModelID>1D5E84AB-19F6-4DC0-A74C-443112EA21BB</a:TargetModelID>
 <a:TargetModelClassID>CDE44E21-9669-11D1-9914-006097355D9B</a:TargetModelClassID>
 <c:SessionShortcuts>

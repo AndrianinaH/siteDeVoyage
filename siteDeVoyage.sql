@@ -1,6 +1,6 @@
 /*==============================================================*/
 /* DBMS name:      PostgreSQL 8                                 */
-/* Created on:     17/03/2017 09:29:51                          */
+/* Created on:     06/04/2017 21:06:49                          */
 /*==============================================================*/
 
 
@@ -22,13 +22,7 @@ drop index DESTINATION_PK;
 
 drop table DESTINATION;
 
-drop index FILTRE_HOTEL2_FK;
-
 drop index FILTRE_HOTEL_FK;
-
-drop index FILTRE_HOTEL_PK;
-
-drop table FILTRE_HOTEL;
 
 drop index DEST_HOTEL_FK;
 
@@ -122,44 +116,14 @@ ID_DESTINATION
 );
 
 /*==============================================================*/
-/* Table: FILTRE_HOTEL                                          */
-/*==============================================================*/
-create table FILTRE_HOTEL (
-   ID_COMMODITE         INT4                 not null,
-   ID_HOTEL             INT4                 not null,
-   constraint PK_FILTRE_HOTEL primary key (ID_COMMODITE, ID_HOTEL)
-);
-
-/*==============================================================*/
-/* Index: FILTRE_HOTEL_PK                                       */
-/*==============================================================*/
-create unique index FILTRE_HOTEL_PK on FILTRE_HOTEL (
-ID_COMMODITE,
-ID_HOTEL
-);
-
-/*==============================================================*/
-/* Index: FILTRE_HOTEL_FK                                       */
-/*==============================================================*/
-create  index FILTRE_HOTEL_FK on FILTRE_HOTEL (
-ID_COMMODITE
-);
-
-/*==============================================================*/
-/* Index: FILTRE_HOTEL2_FK                                      */
-/*==============================================================*/
-create  index FILTRE_HOTEL2_FK on FILTRE_HOTEL (
-ID_HOTEL
-);
-
-/*==============================================================*/
 /* Table: HOTEL                                                 */
 /*==============================================================*/
 create table HOTEL (
    ID_HOTEL             SERIAL               not null,
    ID_DESTINATION       INT4                 not null,
+   ID_COMMODITE         INT4                 not null,
    NOM_HOTEL            VARCHAR(100)         null,
-   DESCRIPTION          VARCHAR(255)         null,
+   DESCRIPTION          TEXT                 null,
    IMAGE                VARCHAR(100)         null,
    constraint PK_HOTEL primary key (ID_HOTEL)
 );
@@ -176,6 +140,13 @@ ID_HOTEL
 /*==============================================================*/
 create  index DEST_HOTEL_FK on HOTEL (
 ID_DESTINATION
+);
+
+/*==============================================================*/
+/* Index: FILTRE_HOTEL_FK                                       */
+/*==============================================================*/
+create  index FILTRE_HOTEL_FK on HOTEL (
+ID_COMMODITE
 );
 
 /*==============================================================*/
@@ -216,19 +187,14 @@ alter table CHAMBRE
       references HOTEL (ID_HOTEL)
       on delete restrict on update restrict;
 
-alter table FILTRE_HOTEL
-   add constraint FK_FILTRE_H_FILTRE_HO_COMMODIT foreign key (ID_COMMODITE)
-      references COMMODITE (ID_COMMODITE)
-      on delete restrict on update restrict;
-
-alter table FILTRE_HOTEL
-   add constraint FK_FILTRE_H_FILTRE_HO_HOTEL foreign key (ID_HOTEL)
-      references HOTEL (ID_HOTEL)
-      on delete restrict on update restrict;
-
 alter table HOTEL
    add constraint FK_HOTEL_DEST_HOTE_DESTINAT foreign key (ID_DESTINATION)
       references DESTINATION (ID_DESTINATION)
+      on delete restrict on update restrict;
+
+alter table HOTEL
+   add constraint FK_HOTEL_FILTRE_HO_COMMODIT foreign key (ID_COMMODITE)
+      references COMMODITE (ID_COMMODITE)
       on delete restrict on update restrict;
 
 alter table RESERVATION

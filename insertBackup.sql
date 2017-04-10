@@ -3,28 +3,6 @@ INSERT INTO DESTINATION (NOM_DESTINATION) VALUES ('Londre');
 INSERT INTO DESTINATION (NOM_DESTINATION) VALUES ('Madrid');
 INSERT INTO DESTINATION (NOM_DESTINATION) VALUES ('Tokyo');
 
-
-INSERT INTO HOTEL (ID_DESTINATION,NOM_HOTEL,DESCRIPTION,IMAGE) VALUES (1,'hotel Paris1','Inter haec Orfitus praefecti potestate regebat urbem aeternam ultra modum delatae dignitatis sese efferens insolenter, vir quidem prudens et forensium negotiorum oppido gnarus, sed splendore liberalium doctrinarum minus quam nobilem decuerat institutus, quo administrante seditiones sunt concitatae graves ob inopiam vini: huius avidis usibus vulgus intentum ad motus asperos excitatur et crebros.','paris.jpg');
-INSERT INTO HOTEL (ID_DESTINATION,NOM_HOTEL,DESCRIPTION,IMAGE) VALUES (1,'hotel Paris2','Inter haec Orfitus praefecti potestate regebat urbem aeternam ultra modum delatae dignitatis sese efferens insolenter, vir quidem prudens et forensium negotiorum oppido gnarus, sed splendore liberalium doctrinarum minus quam nobilem decuerat institutus, quo administrante seditiones sunt concitatae graves ob inopiam vini: huius avidis usibus vulgus intentum ad motus asperos excitatur et crebros.','paris.jpg');
-INSERT INTO HOTEL (ID_DESTINATION,NOM_HOTEL,DESCRIPTION,IMAGE) VALUES (1,'hotel Paris3','Inter haec Orfitus praefecti potestate regebat urbem aeternam ultra modum delatae dignitatis sese efferens insolenter, vir quidem prudens et forensium negotiorum oppido gnarus, sed splendore liberalium doctrinarum minus quam nobilem decuerat institutus, quo administrante seditiones sunt concitatae graves ob inopiam vini: huius avidis usibus vulgus intentum ad motus asperos excitatur et crebros.','paris.jpg');
-INSERT INTO HOTEL (ID_DESTINATION,NOM_HOTEL,DESCRIPTION,IMAGE) VALUES (1,'hotel Paris4','Inter haec Orfitus praefecti potestate regebat urbem aeternam ultra modum delatae dignitatis sese efferens insolenter, vir quidem prudens et forensium negotiorum oppido gnarus, sed splendore liberalium doctrinarum minus quam nobilem decuerat institutus, quo administrante seditiones sunt concitatae graves ob inopiam vini: huius avidis usibus vulgus intentum ad motus asperos excitatur et crebros.','paris.jpg');
-
-INSERT INTO HOTEL (ID_DESTINATION,NOM_HOTEL,DESCRIPTION,IMAGE) VALUES (2,'hotel Londre1','Denique Antiochensis ordinis vertices sub uno elogio iussit occidi ideo efferatus, quod ei celebrari vilitatem intempestivam urgenti, cum inpenderet inopia, gravius rationabili responderunt; et perissent ad unum ni comes orientis tunc Honoratus fixa constantia restitisset.','londre.jpg');
-INSERT INTO HOTEL (ID_DESTINATION,NOM_HOTEL,DESCRIPTION,IMAGE) VALUES (2,'hotel Londre2','Denique Antiochensis ordinis vertices sub uno elogio iussit occidi ideo efferatus, quod ei celebrari vilitatem intempestivam urgenti, cum inpenderet inopia, gravius rationabili responderunt; et perissent ad unum ni comes orientis tunc Honoratus fixa constantia restitisset.','londre.jpg');
-INSERT INTO HOTEL (ID_DESTINATION,NOM_HOTEL,DESCRIPTION,IMAGE) VALUES (2,'hotel Londre3','Denique Antiochensis ordinis vertices sub uno elogio iussit occidi ideo efferatus, quod ei celebrari vilitatem intempestivam urgenti, cum inpenderet inopia, gravius rationabili responderunt; et perissent ad unum ni comes orientis tunc Honoratus fixa constantia restitisset.','londre.jpg');
-INSERT INTO HOTEL (ID_DESTINATION,NOM_HOTEL,DESCRIPTION,IMAGE) VALUES (2,'hotel Londre4','Denique Antiochensis ordinis vertices sub uno elogio iussit occidi ideo efferatus, quod ei celebrari vilitatem intempestivam urgenti, cum inpenderet inopia, gravius rationabili responderunt; et perissent ad unum ni comes orientis tunc Honoratus fixa constantia restitisset.','londre.jpg');
-
-INSERT INTO HOTEL (ID_DESTINATION,NOM_HOTEL,DESCRIPTION,IMAGE) VALUES (3,'hotel Madrid1','Tantum autem cuique tribuendum, primum quantum ipse efficere possis, deinde etiam quantum ille quem diligas atque adiuves, sustinere. Non enim neque tu possis, quamvis excellas, omnes tuos ad honores amplissim','madrid.jpg');
-INSERT INTO HOTEL (ID_DESTINATION,NOM_HOTEL,DESCRIPTION,IMAGE) VALUES (3,'hotel Madrid2','Tantum autem cuique tribuendum, primum quantum ipse efficere possis, deinde etiam quantum ille quem diligas atque adiuves, sustinere. Non enim neque tu possis, quamvis excellas, omnes tuos ad honores amplissim','madrid.jpg');
-INSERT INTO HOTEL (ID_DESTINATION,NOM_HOTEL,DESCRIPTION,IMAGE) VALUES (3,'hotel Madrid3','Tantum autem cuique tribuendum, primum quantum ipse efficere possis, deinde etiam quantum ille quem diligas atque adiuves, sustinere. Non enim neque tu possis, quamvis excellas, omnes tuos ad honores amplissim','madrid.jpg');
-INSERT INTO HOTEL (ID_DESTINATION,NOM_HOTEL,DESCRIPTION,IMAGE) VALUES (3,'hotel Madrid4','Tantum autem cuique tribuendum, primum quantum ipse efficere possis, deinde etiam quantum ille quem diligas atque adiuves, sustinere. Non enim neque tu possis, quamvis excellas, omnes tuos ad honores amplissim','madrid.jpg');
-
-
-INSERT INTO HOTEL (ID_DESTINATION,NOM_HOTEL,DESCRIPTION,IMAGE) VALUES (4,'hotel Tokyo1','Et interdum acciderat, ut siquid in penetrali secreto nullo citerioris vitae ministro praesente paterfamilias uxori susurrasset in aurem, velut Amphiarao referente aut Marcio, quondam vatibus inclitis, postridie disceret imperator. ideoque etiam parietes arcanorum soli conscii timebantur.','tokyo.jpg');
-INSERT INTO HOTEL (ID_DESTINATION,NOM_HOTEL,DESCRIPTION,IMAGE) VALUES (4,'hotel Tokyo2','Et interdum acciderat, ut siquid in penetrali secreto nullo citerioris vitae ministro praesente paterfamilias uxori susurrasset in aurem, velut Amphiarao referente aut Marcio, quondam vatibus inclitis, postridie disceret imperator. ideoque etiam parietes arcanorum soli conscii timebantur.','tokyo.jpg');
-INSERT INTO HOTEL (ID_DESTINATION,NOM_HOTEL,DESCRIPTION,IMAGE) VALUES (4,'hotel Tokyo3','Et interdum acciderat, ut siquid in penetrali secreto nullo citerioris vitae ministro praesente paterfamilias uxori susurrasset in aurem, velut Amphiarao referente aut Marcio, quondam vatibus inclitis, postridie disceret imperator. ideoque etiam parietes arcanorum soli conscii timebantur.','tokyo.jpg');
-INSERT INTO HOTEL (ID_DESTINATION,NOM_HOTEL,DESCRIPTION,IMAGE) VALUES (4,'hotel Tokyo4','Et interdum acciderat, ut siquid in penetrali secreto nullo citerioris vitae ministro praesente paterfamilias uxori susurrasset in aurem, velut Amphiarao referente aut Marcio, quondam vatibus inclitis, postridie disceret imperator. ideoque etiam parietes arcanorum soli conscii timebantur.','tokyo.jpg');
-
 INSERT INTO COMMODITE (NOM_COMMODITE) VALUES ('wifi');
 INSERT INTO COMMODITE (NOM_COMMODITE) VALUES ('piscine');
 INSERT INTO COMMODITE (NOM_COMMODITE) VALUES ('tele');
@@ -32,47 +10,26 @@ INSERT INTO COMMODITE (NOM_COMMODITE) VALUES ('plage');
 INSERT INTO COMMODITE (NOM_COMMODITE) VALUES ('spa');
 INSERT INTO COMMODITE (NOM_COMMODITE) VALUES ('restaurant');
 
-INSERT INTO FILTRE_HOTEL (ID_COMMODITE,ID_HOTEL) VALUES (1,1);
-INSERT INTO FILTRE_HOTEL (ID_COMMODITE,ID_HOTEL) VALUES (1,2);
-INSERT INTO FILTRE_HOTEL (ID_COMMODITE,ID_HOTEL) VALUES (1,4);
-INSERT INTO FILTRE_HOTEL (ID_COMMODITE,ID_HOTEL) VALUES (1,11);
-INSERT INTO FILTRE_HOTEL (ID_COMMODITE,ID_HOTEL) VALUES (1,13);
-INSERT INTO FILTRE_HOTEL (ID_COMMODITE,ID_HOTEL) VALUES (1,5);
+INSERT INTO HOTEL (ID_DESTINATION,ID_COMMODITE,NOM_HOTEL,DESCRIPTION,IMAGE) VALUES (1,1,'hotel Paris1','Inter haec Orfitus praefecti potestate regebat urbem aeternam ultra modum delatae dignitatis sese efferens insolenter, vir quidem prudens et forensium negotiorum oppido gnarus, sed splendore liberalium doctrinarum minus quam nobilem decuerat institutus, quo administrante seditiones sunt concitatae graves ob inopiam vini: huius avidis usibus vulgus intentum ad motus asperos excitatur et crebros.','paris.jpg');
+INSERT INTO HOTEL (ID_DESTINATION,ID_COMMODITE,NOM_HOTEL,DESCRIPTION,IMAGE) VALUES (1,2,'hotel Paris2','Inter haec Orfitus praefecti potestate regebat urbem aeternam ultra modum delatae dignitatis sese efferens insolenter, vir quidem prudens et forensium negotiorum oppido gnarus, sed splendore liberalium doctrinarum minus quam nobilem decuerat institutus, quo administrante seditiones sunt concitatae graves ob inopiam vini: huius avidis usibus vulgus intentum ad motus asperos excitatur et crebros.','paris.jpg');
+INSERT INTO HOTEL (ID_DESTINATION,ID_COMMODITE,NOM_HOTEL,DESCRIPTION,IMAGE) VALUES (1,2,'hotel Paris3','Inter haec Orfitus praefecti potestate regebat urbem aeternam ultra modum delatae dignitatis sese efferens insolenter, vir quidem prudens et forensium negotiorum oppido gnarus, sed splendore liberalium doctrinarum minus quam nobilem decuerat institutus, quo administrante seditiones sunt concitatae graves ob inopiam vini: huius avidis usibus vulgus intentum ad motus asperos excitatur et crebros.','paris.jpg');
+INSERT INTO HOTEL (ID_DESTINATION,ID_COMMODITE,NOM_HOTEL,DESCRIPTION,IMAGE) VALUES (1,3,'hotel Paris4','Inter haec Orfitus praefecti potestate regebat urbem aeternam ultra modum delatae dignitatis sese efferens insolenter, vir quidem prudens et forensium negotiorum oppido gnarus, sed splendore liberalium doctrinarum minus quam nobilem decuerat institutus, quo administrante seditiones sunt concitatae graves ob inopiam vini: huius avidis usibus vulgus intentum ad motus asperos excitatur et crebros.','paris.jpg');
 
-INSERT INTO FILTRE_HOTEL (ID_COMMODITE,ID_HOTEL) VALUES (2,1);
-INSERT INTO FILTRE_HOTEL (ID_COMMODITE,ID_HOTEL) VALUES (2,5);
-INSERT INTO FILTRE_HOTEL (ID_COMMODITE,ID_HOTEL) VALUES (2,10);
-INSERT INTO FILTRE_HOTEL (ID_COMMODITE,ID_HOTEL) VALUES (2,9);
-INSERT INTO FILTRE_HOTEL (ID_COMMODITE,ID_HOTEL) VALUES (2,12);
-INSERT INTO FILTRE_HOTEL (ID_COMMODITE,ID_HOTEL) VALUES (2,6);
+INSERT INTO HOTEL (ID_DESTINATION,ID_COMMODITE,NOM_HOTEL,DESCRIPTION,IMAGE) VALUES (2,3,'hotel Londre1','Denique Antiochensis ordinis vertices sub uno elogio iussit occidi ideo efferatus, quod ei celebrari vilitatem intempestivam urgenti, cum inpenderet inopia, gravius rationabili responderunt; et perissent ad unum ni comes orientis tunc Honoratus fixa constantia restitisset.','londre.jpg');
+INSERT INTO HOTEL (ID_DESTINATION,ID_COMMODITE,NOM_HOTEL,DESCRIPTION,IMAGE) VALUES (2,3,'hotel Londre2','Denique Antiochensis ordinis vertices sub uno elogio iussit occidi ideo efferatus, quod ei celebrari vilitatem intempestivam urgenti, cum inpenderet inopia, gravius rationabili responderunt; et perissent ad unum ni comes orientis tunc Honoratus fixa constantia restitisset.','londre.jpg');
+INSERT INTO HOTEL (ID_DESTINATION,ID_COMMODITE,NOM_HOTEL,DESCRIPTION,IMAGE) VALUES (2,4,'hotel Londre3','Denique Antiochensis ordinis vertices sub uno elogio iussit occidi ideo efferatus, quod ei celebrari vilitatem intempestivam urgenti, cum inpenderet inopia, gravius rationabili responderunt; et perissent ad unum ni comes orientis tunc Honoratus fixa constantia restitisset.','londre.jpg');
+INSERT INTO HOTEL (ID_DESTINATION,ID_COMMODITE,NOM_HOTEL,DESCRIPTION,IMAGE) VALUES (2,4,'hotel Londre4','Denique Antiochensis ordinis vertices sub uno elogio iussit occidi ideo efferatus, quod ei celebrari vilitatem intempestivam urgenti, cum inpenderet inopia, gravius rationabili responderunt; et perissent ad unum ni comes orientis tunc Honoratus fixa constantia restitisset.','londre.jpg');
 
-INSERT INTO FILTRE_HOTEL (ID_COMMODITE,ID_HOTEL) VALUES (3,3);
-INSERT INTO FILTRE_HOTEL (ID_COMMODITE,ID_HOTEL) VALUES (3,1);
-INSERT INTO FILTRE_HOTEL (ID_COMMODITE,ID_HOTEL) VALUES (3,2);
-INSERT INTO FILTRE_HOTEL (ID_COMMODITE,ID_HOTEL) VALUES (3,5);
-INSERT INTO FILTRE_HOTEL (ID_COMMODITE,ID_HOTEL) VALUES (3,6);
-INSERT INTO FILTRE_HOTEL (ID_COMMODITE,ID_HOTEL) VALUES (3,12);
+INSERT INTO HOTEL (ID_DESTINATION,ID_COMMODITE,NOM_HOTEL,DESCRIPTION,IMAGE) VALUES (3,5,'hotel Madrid1','Tantum autem cuique tribuendum, primum quantum ipse efficere possis, deinde etiam quantum ille quem diligas atque adiuves, sustinere. Non enim neque tu possis, quamvis excellas, omnes tuos ad honores amplissim','madrid.jpg');
+INSERT INTO HOTEL (ID_DESTINATION,ID_COMMODITE,NOM_HOTEL,DESCRIPTION,IMAGE) VALUES (3,5,'hotel Madrid2','Tantum autem cuique tribuendum, primum quantum ipse efficere possis, deinde etiam quantum ille quem diligas atque adiuves, sustinere. Non enim neque tu possis, quamvis excellas, omnes tuos ad honores amplissim','madrid.jpg');
+INSERT INTO HOTEL (ID_DESTINATION,ID_COMMODITE,NOM_HOTEL,DESCRIPTION,IMAGE) VALUES (3,6,'hotel Madrid3','Tantum autem cuique tribuendum, primum quantum ipse efficere possis, deinde etiam quantum ille quem diligas atque adiuves, sustinere. Non enim neque tu possis, quamvis excellas, omnes tuos ad honores amplissim','madrid.jpg');
+INSERT INTO HOTEL (ID_DESTINATION,ID_COMMODITE,NOM_HOTEL,DESCRIPTION,IMAGE) VALUES (3,6,'hotel Madrid4','Tantum autem cuique tribuendum, primum quantum ipse efficere possis, deinde etiam quantum ille quem diligas atque adiuves, sustinere. Non enim neque tu possis, quamvis excellas, omnes tuos ad honores amplissim','madrid.jpg');
 
-INSERT INTO FILTRE_HOTEL (ID_COMMODITE,ID_HOTEL) VALUES (4,4);
-INSERT INTO FILTRE_HOTEL (ID_COMMODITE,ID_HOTEL) VALUES (4,6);
-INSERT INTO FILTRE_HOTEL (ID_COMMODITE,ID_HOTEL) VALUES (4,7);
-INSERT INTO FILTRE_HOTEL (ID_COMMODITE,ID_HOTEL) VALUES (4,14);
-INSERT INTO FILTRE_HOTEL (ID_COMMODITE,ID_HOTEL) VALUES (4,9);
-INSERT INTO FILTRE_HOTEL (ID_COMMODITE,ID_HOTEL) VALUES (4,13);
 
-INSERT INTO FILTRE_HOTEL (ID_COMMODITE,ID_HOTEL) VALUES (5,2);
-INSERT INTO FILTRE_HOTEL (ID_COMMODITE,ID_HOTEL) VALUES (5,8);
-INSERT INTO FILTRE_HOTEL (ID_COMMODITE,ID_HOTEL) VALUES (5,7);
-INSERT INTO FILTRE_HOTEL (ID_COMMODITE,ID_HOTEL) VALUES (5,15);
-INSERT INTO FILTRE_HOTEL (ID_COMMODITE,ID_HOTEL) VALUES (5,6);
-INSERT INTO FILTRE_HOTEL (ID_COMMODITE,ID_HOTEL) VALUES (5,3);
-
-INSERT INTO FILTRE_HOTEL (ID_COMMODITE,ID_HOTEL) VALUES (6,2);
-INSERT INTO FILTRE_HOTEL (ID_COMMODITE,ID_HOTEL) VALUES (6,1);
-INSERT INTO FILTRE_HOTEL (ID_COMMODITE,ID_HOTEL) VALUES (6,16);
-INSERT INTO FILTRE_HOTEL (ID_COMMODITE,ID_HOTEL) VALUES (6,11);
-INSERT INTO FILTRE_HOTEL (ID_COMMODITE,ID_HOTEL) VALUES (6,12);
-INSERT INTO FILTRE_HOTEL (ID_COMMODITE,ID_HOTEL) VALUES (6,3);
+INSERT INTO HOTEL (ID_DESTINATION,ID_COMMODITE,NOM_HOTEL,DESCRIPTION,IMAGE) VALUES (4,6,'hotel Tokyo1','Et interdum acciderat, ut siquid in penetrali secreto nullo citerioris vitae ministro praesente paterfamilias uxori susurrasset in aurem, velut Amphiarao referente aut Marcio, quondam vatibus inclitis, postridie disceret imperator. ideoque etiam parietes arcanorum soli conscii timebantur.','tokyo.jpg');
+INSERT INTO HOTEL (ID_DESTINATION,ID_COMMODITE,NOM_HOTEL,DESCRIPTION,IMAGE) VALUES (4,2,'hotel Tokyo2','Et interdum acciderat, ut siquid in penetrali secreto nullo citerioris vitae ministro praesente paterfamilias uxori susurrasset in aurem, velut Amphiarao referente aut Marcio, quondam vatibus inclitis, postridie disceret imperator. ideoque etiam parietes arcanorum soli conscii timebantur.','tokyo.jpg');
+INSERT INTO HOTEL (ID_DESTINATION,ID_COMMODITE,NOM_HOTEL,DESCRIPTION,IMAGE) VALUES (4,1,'hotel Tokyo3','Et interdum acciderat, ut siquid in penetrali secreto nullo citerioris vitae ministro praesente paterfamilias uxori susurrasset in aurem, velut Amphiarao referente aut Marcio, quondam vatibus inclitis, postridie disceret imperator. ideoque etiam parietes arcanorum soli conscii timebantur.','tokyo.jpg');
+INSERT INTO HOTEL (ID_DESTINATION,ID_COMMODITE,NOM_HOTEL,DESCRIPTION,IMAGE) VALUES (4,3,'hotel Tokyo4','Et interdum acciderat, ut siquid in penetrali secreto nullo citerioris vitae ministro praesente paterfamilias uxori susurrasset in aurem, velut Amphiarao referente aut Marcio, quondam vatibus inclitis, postridie disceret imperator. ideoque etiam parietes arcanorum soli conscii timebantur.','tokyo.jpg');
 
 
 INSERT INTO CHAMBRE (ID_HOTEL,NOM_CHAMBRE,NBR_PETIT_LIT,NBR_GRAND_LIT,PRIX) VALUES (1,'chambre1_paris1',2,1,310);
@@ -186,3 +143,4 @@ INSERT INTO CHAMBRE (ID_HOTEL,NOM_CHAMBRE,NBR_PETIT_LIT,NBR_GRAND_LIT,PRIX) VALU
 INSERT INTO CHAMBRE (ID_HOTEL,NOM_CHAMBRE,NBR_PETIT_LIT,NBR_GRAND_LIT,PRIX) VALUES (16,'chambre4_tokyo4',2,2,545);
 INSERT INTO CHAMBRE (ID_HOTEL,NOM_CHAMBRE,NBR_PETIT_LIT,NBR_GRAND_LIT,PRIX) VALUES (16,'chambre5_tokyo4',2,2,565);
 INSERT INTO CHAMBRE (ID_HOTEL,NOM_CHAMBRE,NBR_PETIT_LIT,NBR_GRAND_LIT,PRIX) VALUES (16,'chambre6_tokyo4',2,2,570);
+
